@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Tilt from "react-tilt";
+import { Tilt } from "react-tilt";
 import { services } from "../constants";
 import profileImage from '../assets/profile.JPG';
 

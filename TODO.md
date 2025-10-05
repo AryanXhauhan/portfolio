@@ -1,4 +1,4 @@
-- [ ] Modify the scale of the Earth primitive in src/components/canvas/Earth.jsx from 2.5 to 3.0
-- [ ] Add style prop to Canvas component in Earth.jsx to set width: '800px', height: '200px'
-- [ ] Run development server to test the changes
-- [ ] Verify the Earth model appears larger and canvas size is updated
+- [x] Update three version in package.json to ^0.166.0
+- [x] Change react-tilt import in src/components/About.jsx to named import
+- [x] Run npm install to update dependencies
+- [x] Run npm run build to verify fixes
