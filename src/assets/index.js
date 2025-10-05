@@ -8,6 +8,12 @@ import databaseIcon from "./data.png";
 import aiIcon from "./ai.png";
 import cloudIcon from "./cloud.png";
 import mobileIcon from "./mobiledev.png";
+import aru from "./arualgo.png"
+import arutrade from "./arutradex.png";
+import dream from "./dream2design.png";
+import jar from "./jarnox.png";
+import twit from "./twitter.png";
+
 
 export {
   frontendIcon,
@@ -20,4 +26,9 @@ export {
   creator,
   mobile,
   web,
+  aru,
+  arutrade,
+  dream,
+  jar,
+  twit
 };
