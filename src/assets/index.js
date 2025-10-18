@@ -13,6 +13,8 @@ import arutrade from "./arutradex.png";
 import dream from "./dream2design.png";
 import jar from "./jarnox.png";
 import twit from "./twitter.png";
+import eCourt from "./eCourt.png";
+import cause from "./cause.png";
 
 
 export {
@@ -30,5 +32,7 @@ export {
   arutrade,
   dream,
   jar,
-  twit
+  twit,
+  eCourt,
+  cause
 };

@@ -14,6 +14,8 @@ import {
   dream,
   jar,
   twit,
+  eCourt,
+  cause,
 } from "../assets";
 
 export const navLinks = [
@@ -488,6 +490,59 @@ const projectsData = [
   {
     id: 1,
     number: "01",
+    title: "Python Development Intern Assignment - Think Act Rise Foundation (Ecourt Scraper)",
+    image: eCourt,
+    date: "October 2025",
+    description:
+      "Built a Python script to fetch and monitor court listings from eCourts using CNR or case details, with optional PDF download and full cause list export in JSON/text formats. Developed CLI and Flask-based web interface with robust error handling for smooth user experience. Utilized Selenium, BeautifulSoup, Requests, lxml, OpenCV, Pillow, Pytesseract, and Flask for web scraping, PDF processing, and automation.",
+
+    tags: [
+      "Python",
+      "Selenium",
+      "BeautifulSoup",
+      "Flask",
+      "OpenCV",
+      "Pytesseract",
+      "Web Scraping",
+      "PDF Processing",
+    ],
+    featureDetails: [
+      { title: "Web Scraping", subtitle: "eCourts Data Extraction" },
+      { title: "PDF Processing", subtitle: "OCR & Download" },
+    ],
+    demoLink: "#",
+    detailsLink: "#",
+    color: "rgb(239, 68, 68)",
+  },
+  {
+    id: 2,
+    number: "02",
+    title: "Court Cause List Web App",
+    image: cause,
+    date: "October 2025",
+    description:
+      "Built a Flask-based web app with real-time cascading dropdowns (State → District → Court Complex → Court Name) and date-based cause list selection for Civil/Criminal cases. Implemented PDF download functionality, including bulk download for entire court complexes, using Selenium, BeautifulSoup, Requests, and ReportLab. Designed a clean, user-friendly interface with robust automation and error handling for efficient access to court listings.",
+
+    tags: [
+      "Flask",
+      "Selenium",
+      "BeautifulSoup",
+      "Requests",
+      "ReportLab",
+      "Web Scraping",
+      "PDF Generation",
+    ],
+    featureDetails: [
+      { title: "Cascading Dropdowns", subtitle: "State to Court Selection" },
+      { title: "Bulk PDF Download", subtitle: "Court Complex Export" },
+    ],
+    demoLink: "#",
+    detailsLink: "#",
+    color: "rgb(34, 197, 94)",
+  },
+  {
+    id: 3,
+    number: "03",
     title: "AruTradeX Platform",
     image: arutrade,
     date: "September 2025 - Present",
@@ -512,8 +567,8 @@ const projectsData = [
     color: "rgb(234, 179, 8)",
   },
   {
-    id: 2,
-    number: "02",
+    id: 4,
+    number: "04",
     title: "AruAlgo Trading Indicators",
     image: aru,
     date: "May 2025 - Present",
@@ -535,11 +590,11 @@ const projectsData = [
     ],
     demoLink: "#",
     detailsLink: "#",
-    color: "rgb(34, 197, 94)",
+    color: "rgb(168, 85, 247)",
   },
   {
-    id: 3,
-    number: "03",
+    id: 5,
+    number: "05",
     title: "JarNox Trading Platform",
     image: jar,
     date: "September 2025 - Present",
@@ -561,11 +616,11 @@ const projectsData = [
     ],
     demoLink: "#",
     detailsLink: "#",
-    color: "rgb(168, 85, 247)",
+    color: "rgb(59, 130, 246)",
   },
   {
-    id: 4,
-    number: "04",
+    id: 6,
+    number: "06",
     title: "Dream2Design AI SaaS",
     image: dream,
     date: "September 2025 - Present",
@@ -586,11 +641,11 @@ const projectsData = [
     ],
     demoLink: "#",
     detailsLink: "#",
-    color: "rgb(59, 130, 246)",
+    color: "rgb(236, 72, 153)",
   },
   {
-    id: 5,
-    number: "05",
+    id: 7,
+    number: "07",
     title: "Twitter Trending Scraper",
     image: twit,
     date: "June 2024",
@@ -612,7 +667,7 @@ const projectsData = [
     ],
     demoLink: "#",
     detailsLink: "#",
-    color: "rgb(236, 72, 153)",
+    color: "rgb(249, 115, 22)",
   },
 ];
 

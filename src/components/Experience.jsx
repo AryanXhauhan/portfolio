@@ -194,6 +194,24 @@ const FloatingExperienceGraphics = () => {
 const timeline = [
   {
     year: "2025",
+    title: "Python Development Intern Assignment - Think Act Rise Foundation (Ecourt Scraper)",
+    date: "October 2025",
+    bullets: [
+      "Built a Python script to fetch and monitor court listings from eCourts using CNR or case details, with optional PDF download and full cause list export in JSON/text formats. Developed CLI and Flask-based web interface with robust error handling for smooth user experience. Utilized Selenium, BeautifulSoup, Requests, lxml, OpenCV, Pillow, Pytesseract, and Flask for web scraping, PDF processing, and automation."
+    ],
+    tags: ["Python", "Selenium", "BeautifulSoup", "Flask", "OpenCV", "Pytesseract", "Web Scraping", "PDF Processing"]
+  },
+  {
+    year: "2025",
+    title: "Court Cause List Web App",
+    date: "October 2025",
+    bullets: [
+      "Built a Flask-based web app with real-time cascading dropdowns (State → District → Court Complex → Court Name) and date-based cause list selection for Civil/Criminal cases. Implemented PDF download functionality, including bulk download for entire court complexes, using Selenium, BeautifulSoup, Requests, and ReportLab. Designed a clean, user-friendly interface with robust automation and error handling for efficient access to court listings."
+    ],
+    tags: ["Flask", "Selenium", "BeautifulSoup", "Requests", "ReportLab", "Web Scraping", "PDF Generation"]
+  },
+  {
+    year: "2025",
     title: "AruAlgo – TradingView Indicators",
     date: "May 2025 – Present",
     bullets: [
