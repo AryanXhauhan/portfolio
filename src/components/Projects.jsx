@@ -1,7 +1,7 @@
 // src/components/Projects.jsx
 import React, { useState, useEffect, useRef } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { projectsData } from "../constants"; 
+import { motion } from "framer-motion";
+import { projectsData } from "../constants";
 
 const ANIMATION_CONFIG = {
   headerDelay: 0.2,
@@ -64,12 +64,12 @@ const FloatingProjectGraphics = () => {
       {/* Animated Circuit Connections */}
       <svg className="absolute inset-0 w-full h-full pointer-events-none opacity-10">
         {[...Array(8)].map((_, i) => {
-          const startX = (i * 12.5) + '%';
-          const endX = ((i + 1) * 12.5) + '%';
+          const startX = (i * 12.5);
+          const endX = ((i + 1) * 12.5);
           return (
             <motion.path
               key={`circuit-${i}`}
-              d={`M ${startX} 0 L ${startX} 50% L ${endX} 50% L ${endX} 100%`}
+              d={`M ${startX} 0 L ${startX} 50 L ${endX} 50 L ${endX} 100`}
               stroke="url(#projectGradient)"
               strokeWidth="2"
               fill="none"

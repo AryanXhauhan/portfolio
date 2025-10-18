@@ -95,12 +95,12 @@ const FloatingAboutGraphics = () => {
       {/* Animated Connecting Lines */}
       <svg className="absolute inset-0 w-full h-full pointer-events-none opacity-10">
         {[...Array(8)].map((_, i) => {
-          const startX = (i * 12.5) + '%';
-          const endX = ((i + 1) * 12.5) + '%';
+          const startX = (i * 12.5);
+          const endX = ((i + 1) * 12.5);
           return (
             <motion.path
               key={`connection-${i}`}
-              d={`M ${startX} 20% Q ${endX} 50% ${startX} 80%`}
+              d={`M ${startX} 20 Q ${endX} 50 ${startX} 80`}
               stroke="url(#aboutGradient)"
               strokeWidth="2"
               fill="none"
