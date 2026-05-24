@@ -1,0 +1,4 @@
+- [x] Update three version in package.json to ^0.166.0
+- [x] Change react-tilt import in src/components/About.jsx to named import
+- [x] Run npm install to update dependencies
+- [x] Run npm run build to verify fixes
